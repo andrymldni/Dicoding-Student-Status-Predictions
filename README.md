@@ -116,6 +116,7 @@ Dataframe ini memiliki 4424 baris dan 36 kolom.
  ┣ 📜app.py
  ┣ 📜dataprep.py
  ┣ 📜main.py
+ ┣ 📜metabase.db.mv.db
  ┣ 📜notebook.ipynb
  ┣ 📜predict.py
  ┣ 📜README.md
