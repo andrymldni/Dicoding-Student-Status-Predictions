@@ -78,7 +78,7 @@ Dataframe ini memiliki 4424 baris dan 36 kolom.
    User: postgres.keqsgptxunfkhtiglfki
    ```
 
-## Streamlit Local  <img src="https://user-images.githubusercontent.com/7164864/217935870-c0bc60a3-6fc0-4047-b011-7b4c59488c91.png" width=35px height=20px/></p> 
+### Streamlit Local  <img src="https://user-images.githubusercontent.com/7164864/217935870-c0bc60a3-6fc0-4047-b011-7b4c59488c91.png" width=35px height=20px/></p> 
 1. Melakukan setup enviroment terlebih dahulu `institute`.
 2. Buka cmd/powershell tuliskan.
    ```
