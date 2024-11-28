@@ -67,6 +67,8 @@ Visualisasi data ini memberikan gambaran awal yang menarik mengenai karakteristi
 
 ![andrymldni - Dashboard](https://github.com/user-attachments/assets/d260f851-62af-4da4-853a-cff6fadbfcd2)
 
+Email: root@mail.com Password: root123
+
 ### Analisis Dashboard
 1. Distribusi Mahasiswa Berdasarkan Gender
 Dari total **4.424** mahasiswa, mayoritas merupakan perempuan dengan jumlah **2.868** (64,8%), sementara jumlah mahasiswa laki-laki adalah **1.556** (35,2%).
@@ -102,8 +104,6 @@ Sebagian besar mahasiswa tidak menerima beasiswa, dengan jumlah mahasiswa peremp
    - **Journalism and Communication**: 196 lulusan.
    - **Management**: 138 lulusan.
    - **Communication Design**: 133 lulusan.
-
-Email: root@mail.com Password: root123
 
 ## Implementing a Machine Learning System
 Prototipe dapat dijalankan melalui terminal cmd/powershell di direktori proyek.
