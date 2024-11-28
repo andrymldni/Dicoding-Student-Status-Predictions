@@ -14,7 +14,6 @@ Jaya Jaya Institut menghadapi tantangan serius dengan tingginya tingkat dropout 
 1. Implementasi teknologi berbasis data untuk mendeteksi mahasiswa yang berisiko tinggi mengalami dropout secara dini.
 2. Menyediakan layanan pendampingan akademik dan personal yang dirancang khusus untuk mahasiswa berisiko.
 3. Menggunakan dashboard untuk memantau performa individu mahasiswa dan tren dropout secara keseluruhan.
-4. Menyoroti upaya institusi dalam mendukung keberhasilan akademik mahasiswa untuk memperkuat citra institusi.
 
 ### Project Scope
 1. Melakukan analisis kebutuhan institusi yang mencakup tahapan berikut.
