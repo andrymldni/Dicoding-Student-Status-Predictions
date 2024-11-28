@@ -78,7 +78,7 @@ Dataframe ini memiliki 4424 baris dan 36 kolom.
    User: postgres.keqsgptxunfkhtiglfki
    ```
 
-### Streamlit Local  <img src="https://user-images.githubusercontent.com/7164864/217935870-c0bc60a3-6fc0-4047-b011-7b4c59488c91.png" width=35px height=20px/></p> 
+### Deploy Streamlit  <img src="https://user-images.githubusercontent.com/7164864/217935870-c0bc60a3-6fc0-4047-b011-7b4c59488c91.png" width=35px height=20px/></p> 
 1. Melakukan setup enviroment terlebih dahulu `institute`.
 2. Buka cmd/powershell tuliskan.
    ```
@@ -101,7 +101,7 @@ Dataframe ini memiliki 4424 baris dan 36 kolom.
    ```
    streamlit run app.py
    ```
-
+7. Deploy aplikasi streamlit dapat diakses melalui link berikut [streamlit.app](https://andrymldni-status-predictions.streamlit.app/)
    
 ## Sturktur File
 
@@ -128,16 +128,55 @@ Visualisasi data ini memberikan gambaran awal yang menarik mengenai karakteristi
 
 ![andrymldni - Dashboard](https://github.com/user-attachments/assets/d260f851-62af-4da4-853a-cff6fadbfcd2)
 
+### Distribusi Mahasiswa Berdasarkan Gender
+Dari total **4.424** mahasiswa, mayoritas merupakan perempuan dengan jumlah **2.868** (64,8%), sementara jumlah mahasiswa laki-laki adalah **1.556** (35,2%). 
+
+### Penerima Beasiswa Berdasarkan Gender
+Sebagian besar mahasiswa tidak menerima beasiswa, dengan jumlah mahasiswa perempuan **2.001** dan laki-laki **1.324**. Namun, untuk penerima beasiswa, perempuan tetap lebih banyak dengan jumlah **867**, dibandingkan laki-laki yang hanya **232**.
+
+### Status Mahasiswa
+- **Enrolled (Pendaftaran)**: Dari total **794** mahasiswa yang mendaftar, **61,3%** merupakan perempuan dan **38,7%** laki-laki.
+- **Graduate (Lulusan)**: Terdapat **2.209** lulusan, dengan **75,2%** perempuan dan **24,8%** laki-laki.
+- **Dropout (Putus Kuliah)**: Dari total **1.421** mahasiswa yang dropout, **50,7%** adalah perempuan dan **49,3%** laki-laki.
+
+### Distribusi Mahasiswa Berdasarkan Jurusan
+Berikut adalah distribusi mahasiswa berdasarkan jurusan:
+- **Nursing (Keperawatan)**: 17,31%
+- **Management**: 8,59%
+- **Social Service**: 8,02%
+- **Veterinary Nursing**: 7,62%
+- **Journalism and Communication**: 7,48%
+- **Advertising and Marketing Management**: 6,06%
+- **Management (Evening Attendance)**: 6,06%
+- **Tourism**: 5,70%
+- **Communication Design**: 5,11%
+- **Animation and Multimedia Design**: 4,86%
+- **Social Service (Evening Attendance)**: 4,86%
+- **Agronomy**: 4,75%
+- **Basic Education**: 4,34%
+- **Informatics Engineering**: 3,84%
+- **Equiculture**: 3,19%
+- **Other**: 2,22%
+
+### Status Kelulusan Berdasarkan Jurusan dan Gender
+Data kelulusan menunjukkan bahwa mayoritas lulusan adalah perempuan. Beberapa jurusan dengan jumlah lulusan signifikan adalah:
+- **Nursing (Keperawatan)**: 548 lulusan (mayoritas perempuan).
+- **Social Service**: 248 lulusan.
+- **Journalism and Communication**: 196 lulusan.
+- **Management**: 138 lulusan.
+- **Communication Design**: 133 lulusan.
+
+Jurusan seperti **Informatics Engineering** dan **Equiculture** menunjukkan jumlah lulusan laki-laki yang lebih tinggi dibandingkan perempuan.
+
 Email: root@mail.com Password: root123
 
 ## Conclusion
-Berdasarkan analisis data yang dilakukan dalam proyek ini, ditemukan bahwa faktor-faktor seperti status sebagai peminjam uang, penerima beasiswa, biaya sekolah, rata-rata nilai, rata-rata unit kurikulum, umur, dan passing grade berkontribusi terhadap potensi siswa untuk dropout di Jaya Jaya Institute. Dengan memanfaatkan model prediktif yang dikembangkan, institusi kini memiliki kemampuan untuk:
 
-1. Mengidentifikasi Siswa Berisiko Tinggi: Model mampu mendeteksi siswa dengan risiko dropout secara lebih dini, memungkinkan institusi untuk mengambil langkah-langkah preventif.
-2. Strategi Intervensi Terarah: Dengan wawasan yang dihasilkan dari dashboard, institusi dapat merancang bimbingan akademik, dukungan finansial, dan konseling khusus yang lebih efektif.
-3. Pengambilan Keputusan Berbasis Data: Pendekatan berbasis data meningkatkan akurasi dalam pengambilan keputusan, memastikan sumber daya dialokasikan dengan tepat.
+Berdasarkan hasil analisis data dan pengembangan model prediktif, ditemukan bahwa tingginya angka dropout di Jaya Jaya Institute dipengaruhi oleh beberapa faktor utama, yaitu kondisi ekonomi, prestasi akademik, faktor demografis, serta tingkat dukungan yang diterima mahasiswa. Mahasiswa yang tidak menerima beasiswa atau bantuan keuangan lebih rentan mengalami dropout, terutama mereka yang berasal dari latar belakang keluarga berpenghasilan rendah. Selain itu, mahasiswa dengan nilai rata-rata rendah dan yang gagal memenuhi syarat kelulusan (passing grade) juga memiliki risiko lebih tinggi untuk keluar dari program.
 
-Melalui implementasi dashboard berbasis Metabase yang terhubung dengan PostgreSQL, Jaya Jaya Institute dapat memantau tren performa siswa dan memperbarui data secara real-time. Proyek ini berkontribusi dalam meningkatkan retensi siswa, menjaga reputasi institusi, serta memperkuat efisiensi operasional.
+Faktor usia juga berperan penting, di mana mahasiswa yang lebih tua, terutama yang memiliki tanggung jawab tambahan seperti pekerjaan atau keluarga, lebih berisiko mengalami dropout. Secara sosial, mahasiswa yang merasa kurang mendapat dukungan akademik dan tidak terlibat aktif dalam kegiatan kampus juga cenderung tidak mampu menyelesaikan studi. Meskipun jumlah mahasiswa perempuan lebih banyak dibandingkan laki-laki, data menunjukkan bahwa laki-laki lebih rentan mengalami dropout di beberapa jurusan tertentu.
+
+Melalui implementasi model prediktif dan dashboard yang dikembangkan, institusi kini memiliki alat yang efektif untuk mengidentifikasi mahasiswa berisiko dropout secara dini. Dengan demikian, langkah-langkah preventif seperti pemberian beasiswa, peningkatan dukungan akademik, dan bimbingan yang lebih terarah dapat dilakukan. Pendekatan berbasis data ini diharapkan mampu meningkatkan retensi mahasiswa, menjaga reputasi institusi, serta memperkuat efisiensi operasional Jaya Jaya Institute.
 
 ## Model Machine Learning
 Sistem pembelajaran mesin ini dirancang untuk memprediksi kemungkinan terjadinya dropout siswa. Melalui pemodelan data historis mahasiswa, sistem ini menghasilkan estimasi probabilitas seorang siswa akan keluar dari institusi sebelum menyelesaikan studinya. Hasil prediksi ini diharapkan dapat menjadi acuan bagi pihak terkait untuk mengambil tindakan preventif.
